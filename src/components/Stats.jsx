@@ -1,5 +1,9 @@
 import React from "react";
 import CountUp from "react-countup";
+import Body from "../assets/Body.png";
+import Achievements1 from "../assets/Achievements/Achievements Icon 1.png";
+import Achievements2 from "../assets/Achievements/Achievements Icon 2.png";
+import Achievements3 from "../assets/Achievements/Achievements Icon 3.png";
 
 function Stats() {
   return (
@@ -7,11 +11,7 @@ function Stats() {
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto mt-12 dark:bg-slate-800">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2">
-            <img
-              src="src\assets\Body.png"
-              alt="Illustration"
-              className="w-full h-auto"
-            />
+            <img src={Body} alt="Illustration" className="w-full h-auto" />
           </div>
           <div className="md:w-1/2 md:pl-8 mt-8 md:mt-0 text-center md:text-left">
             <h2 className="text-2xl font-bold mb-4 text-gray-600 dark:text-slate-300">
@@ -46,11 +46,7 @@ function Stats() {
         <div className="max-w-4xl grid grid-cols-1 sm:grid-cols-2 gap-8 lg:w-1/2 mt-3 mx-auto">
           <div className="flex flex-col items-center sm:items-start">
             <div className="text-2xl font-bold text-green-600 flex items-center">
-              <img
-                src="src/assets/Achievements/Achievements Icon 1.png"
-                alt="Stats 1"
-                className="mx-2"
-              />
+              <img src={Achievements1} alt="Stats 1" className="mx-2" />
               <CountUp end={2245341} duration={2.5} separator="," />
             </div>
             <div className="text-gray-600 text-justify sm:text-left dark:text-slate-300">
@@ -59,11 +55,7 @@ function Stats() {
           </div>
           <div className="flex flex-col items-center sm:items-start">
             <div className="text-2xl font-bold text-green-600 flex items-center">
-              <img
-                src="src/assets/Achievements/Achievements Icon 2.png"
-                alt="Stats 2"
-                className="mx-2"
-              />
+              <img src={Achievements2} alt="Stats 2" className="mx-2" />
               <CountUp end={46328} duration={2.5} separator="," />
             </div>
             <div className="text-gray-600 text-justify sm:text-left dark:text-slate-300">
@@ -72,11 +64,7 @@ function Stats() {
           </div>
           <div className="flex flex-col items-center sm:items-start">
             <div className="text-2xl font-bold text-green-600 flex items-center">
-              <img
-                src="src/assets/Achievements/Achievements Icon 3.png"
-                alt="Stats 3"
-                className="mx-2"
-              />
+              <img src={Achievements3} alt="Stats 3" className="mx-2" />
               <CountUp end={828861} duration={2.5} separator="," />
             </div>
             <div className="text-gray-600 text-justify sm:text-left dark:text-slate-300">

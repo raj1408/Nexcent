@@ -1,4 +1,7 @@
 import React from "react";
+import Community_image1 from "../assets/Community/image 18.png";
+import Community_image2 from "../assets/Community/image 19.png";
+import Community_image3 from "../assets/Community/image 20.png";
 
 function Community() {
   return (
@@ -15,7 +18,7 @@ function Community() {
       <div className="flex justify-between mt-4 flex-wrap lg:flex-nowrap ">
         <div className="relative lg:m-2 mx-auto mt-10 max-w-[18rem]">
           <img
-            src="src/assets/Community/image 18.png "
+            src={Community_image1}
             alt="Community 1"
             className="w-[18rem] h-auto rounded-t-lg"
           />
@@ -30,7 +33,7 @@ function Community() {
 
         <div className="relative lg:m-2 mx-auto mt-12 max-w-[18rem]">
           <img
-            src="src/assets/Community/image 19.png "
+            src={Community_image2}
             alt="Community 1"
             className="w-full h-auto rounded-t-lg"
           />
@@ -45,7 +48,7 @@ function Community() {
         </div>
         <div className="relative lg:m-2 mx-auto mt-12 max-w-[18rem]">
           <img
-            src="src/assets/Community/image 20.png "
+            src={Community_image3}
             alt="Community 1"
             className="w-full h-auto rounded-t-lg"
           />

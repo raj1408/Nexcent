@@ -1,4 +1,11 @@
 import React from "react";
+import Customer_image from "../assets/image 9.png";
+import Client1 from "../assets/Client Logos/Client Logo (1).png";
+import Client2 from "../assets/Client Logos/Client Logo (2).png";
+import Client3 from "../assets/Client Logos/Client Logo (3).png";
+import Client4 from "../assets/Client Logos/Client Logo (4).png";
+import Client5 from "../assets/Client Logos/Client Logo (5).png";
+import Client6 from "../assets/Client Logos/Client Logo (6).png";
 
 function Customers() {
   return (
@@ -6,7 +13,7 @@ function Customers() {
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
           <img
-            src="src\assets\image 9.png"
+            src={Customer_image}
             alt="Illustration"
             className="w-full h-auto"
           />
@@ -32,32 +39,32 @@ function Customers() {
           <div className="flex justify-start flex-wrap">
             <img
               className="mx-2 dark:bg-slate-50 dark:rounded-2xl dark:my-1"
-              src="src\assets\Client Logos\Client Logo (1).png "
+              src={Client1}
               alt="Client 1"
             />
             <img
               className="mx-2 dark:bg-slate-50 dark:rounded-2xl dark:my-2"
-              src="src\assets\Client Logos\Client Logo (2).png"
+              src={Client2}
               alt="Client 2"
             />
             <img
               className="mx-2 dark:bg-slate-50 dark:rounded-2xl dark:my-2"
-              src="src\assets\Client Logos\Client Logo (3).png"
+              src={Client3}
               alt="Client 3"
             />
             <img
               className="mx-2 dark:bg-slate-50 dark:rounded-2xl dark:my-2"
-              src="src\assets\Client Logos\Client Logo (4).png"
+              src={Client4}
               alt="Client 4"
             />
             <img
               className="mx-2 dark:bg-slate-50 dark:rounded-2xl dark:my-2"
-              src="src\assets\Client Logos\Client Logo (5).png"
+              src={Client5}
               alt="Client 5"
             />
             <img
               className="mx-2 dark:bg-slate-50 dark:rounded-2xl dark:my-2"
-              src="src\assets\Client Logos\Client Logo (6).png"
+              src={Client6}
               alt="Client 6"
             />
             <a

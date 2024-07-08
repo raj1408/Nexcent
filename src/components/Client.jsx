@@ -1,4 +1,13 @@
 import React from "react";
+import Client1 from "../assets/Client Logos/Client Logo (1).png";
+import Client2 from "../assets/Client Logos/Client Logo (2).png";
+import Client3 from "../assets/Client Logos/Client Logo (3).png";
+import Client4 from "../assets/Client Logos/Client Logo (4).png";
+import Client5 from "../assets/Client Logos/Client Logo (5).png";
+import Client6 from "../assets/Client Logos/Client Logo (6).png";
+import Community1 from "../assets/Community/Community Icon 1.png";
+import Community2 from "../assets/Community/Community Icon 2.png";
+import Community3 from "../assets/Community/Community Icon 3.png";
 
 function Client() {
   return (
@@ -10,33 +19,33 @@ function Client() {
         </p>
         <div className="flex justify-around mb-12">
           <img
-            src="src\assets\Client Logos\Client Logo (1).png"
+            src={Client1}
             alt="Client 1"
             className="h-12 dark:bg-slate-50 dark:p-1 dark:rounded-md"
           />
           <img
-            src="src\assets\Client Logos\Client Logo (2).png"
+            src={Client2}
             alt="Client 2"
             className="h-12 dark:bg-slate-50 dark:p-1 dark:rounded-md"
           />
           <img
-            src="src\assets\Client Logos\Client Logo (3).png"
+            src={Client3}
             alt="Client 3"
             className="h-12 dark:bg-slate-50 dark:p-1 dark:rounded-md"
           />
           <img
-            src="src\assets\Client Logos\Client Logo (4).png"
+            src={Client4}
             alt="Client 4"
             className="h-12 dark:bg-slate-50 dark:p-1 dark:rounded-md"
           />
           <img
-            src="src\assets\Client Logos\Client Logo (5).png"
-            alt="Client 4"
+            src={Client5}
+            alt="Client 5"
             className="h-12 dark:bg-slate-50 dark:p-1 dark:rounded-md"
           />
           <img
-            src="src\assets\Client Logos\Client Logo (6).png"
-            alt="Client 4"
+            src={Client6}
+            alt="Client 6"
             className="h-12 md:flex hidden dark:bg-slate-50 dark:p-1 dark:rounded-md"
           />
         </div>
@@ -49,7 +58,7 @@ function Client() {
         <div className="flex sm:justify-around flex-wrap">
           <div className="sm:max-w-xs mt-3">
             <img
-              src="src\assets\Community\Community Icon 1.png"
+              src={Community1}
               alt="Community Icon 1"
               className="mx-auto dark:bg-slate-50 dark:p-1 dark:rounded-3xl"
             />
@@ -61,7 +70,7 @@ function Client() {
           </div>
           <div className="sm:max-w-xs mt-3">
             <img
-              src="src\assets\Community\Community Icon 2.png"
+              src={Community2}
               alt="Community Icon 2"
               className="mx-auto dark:bg-slate-50 dark:p-1 dark:rounded-3xl"
             />
@@ -73,7 +82,7 @@ function Client() {
           </div>
           <div className="sm:max-w-xs mt-3">
             <img
-              src="src\assets\Community\Community Icon 3.png"
+              src={Community3}
               alt="Community Icon 3"
               className="mx-auto dark:bg-slate-50 dark:p-1 dark:rounded-3xl"
             />

@@ -1,4 +1,9 @@
 import React from "react";
+import Footer_Logo from "../assets/logo.png";
+import Social_Icon1 from "../assets/Social Icons/Social Icon 1.png";
+import Social_Icon2 from "../assets/Social Icons/Social Icon 2.png";
+import Social_Icon3 from "../assets/Social Icons/Social Icon 3.png";
+import Social_Icon4 from "../assets/Social Icons/Social Icon 4.png";
 
 function Footer() {
   return (
@@ -14,7 +19,7 @@ function Footer() {
       <div className="w-full bg-gray-900 flex justify-between flex-wrap md:flex-nowrap dark:bg-slate-300">
         <div className="p-2">
           <div className="flex mx-6 mt-12 p-2">
-            <img src="src\assets\logo.png" alt="Logo" className="m-2" />
+            <img src={Footer_Logo} alt="Logo" className="m-2" />
             <h2 className="text-white text-2xl font-bold m-2 dark:text-slate-700">
               Nexcent
             </h2>
@@ -25,22 +30,22 @@ function Footer() {
           <div className="flex justify-around mt-3 p-2">
             <img
               className="dark:bg-gray-700 dark:p-1 dark:rounded-lg"
-              src="src\assets\Social Icons\Social Icon 1.png"
+              src={Social_Icon1}
               alt="Social Icon 1"
             />
             <img
               className="dark:bg-gray-700 dark:p-1 dark:rounded-lg"
-              src="src\assets\Social Icons\Social Icon 2.png"
+              src={Social_Icon2}
               alt="Social Icon 2"
             />
             <img
               className="dark:bg-gray-700 dark:p-1 dark:rounded-lg"
-              src="src\assets\Social Icons\Social Icon 3.png"
+              src={Social_Icon3}
               alt="Social Icon 3"
             />
             <img
               className="dark:bg-gray-700 dark:p-1 dark:rounded-lg"
-              src="src\assets\Social Icons\Social Icon 4.png"
+              src={Social_Icon4}
               alt="Social Icon 4"
             />
           </div>

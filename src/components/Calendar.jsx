@@ -1,15 +1,12 @@
 import React from "react";
+import Mobile from "../assets/Mobile login-panel.png";
 
 function Calendar() {
   return (
     <div className="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto mt-12 dark:bg-slate-900">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
-          <img
-            src="src\assets\Mobile login-panel.png"
-            alt="Illustration"
-            className="w-full h-auto"
-          />
+          <img src={Mobile} alt="Illustration" className="w-full h-auto" />
         </div>
         <div className="md:w-1/2 md:pl-8 mt-8 md:mt-0 text-center md:text-left">
           <h2 className="text-2xl font-bold mb-4 text-gray-600 dark:text-gray-400">
